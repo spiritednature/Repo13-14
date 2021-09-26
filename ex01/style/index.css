@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input{
+  display: none;
+}
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+h1{
+  color: red;
+  font-size: 20px;
+  position: relative;
+  margin: 40px 0;
+}
+
+.gallery{
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.pic{
+  position: relative;
+  object-fit: cover;
+}
+.pic img{
+  width: 100%;
+  height: auto;
+}
+
+.desc{
+  text-align: justify;
+  margin: 10px;
+  letter-spacing: -0.6px;
+}
+
+.fdesc{
+  color:royalblue;
+  text-align: justify;
+  margin: 10px;
+  letter-spacing: -0.6px;
+}
